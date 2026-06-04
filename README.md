@@ -11,9 +11,9 @@ This project adapts the reasoning agent enterprise framework into an automated *
 The solution implements a multi-step reasoning pipeline utilizing four distinct agents, mapping directly to the core tenets of the Microsoft IQ intelligence layers:
 
 1. Ingredient Agent (Foundry IQ Grounding Layer): Simulates a multi-source knowledge base retrieval. It queries the product catalog database (`FOUNDRY_IQ_KNOWLEDGE_BASE`), extracts verified ingredient lists, and returns cited, permission-aware answers rather than hallucinated text.
-2. **Dermal-Semantic Layer Agent (Fabric IQ Semantic Layer):** * Operates as the business meaning framework. It maps the structural relationships between user skin profiles, target conditions, and active chemical compound ingredients. It evaluates complex multi-ingredient contraindications (such as `Retinol` + `L-Ascorbic Acid` interactions) using established relationship trees.
-3. **Routine Orchestrator Agent (Work IQ Context Layer):** * Captures individual environmental exposure context and daily user habits (such as peak UV sun exposure hours and routine complexity preferences) to logically construct and adapt safe AM/PM application schedules.
-4. **Safety & Compliance Verifier (Responsible AI Guardrail):** * Acts as an automated Critic/Verifier pattern to ensure no hazardous advice escaping the orchestration pipeline violates safe topical threshold limits.
+2. **Dermal-Semantic Layer Agent (Fabric IQ Semantic Layer):** Operates as the business meaning framework. It maps the structural relationships between user skin profiles, target conditions, and active chemical compound ingredients. It evaluates complex multi-ingredient contraindications (such as `Retinol` + `L-Ascorbic Acid` interactions) using established relationship trees.
+3. **Routine Orchestrator Agent (Work IQ Context Layer):** Captures individual environmental exposure context and daily user habits (such as peak UV sun exposure hours and routine complexity preferences) to logically construct and adapt safe AM/PM application schedules.
+4. **Safety & Compliance Verifier (Responsible AI Guardrail):** Acts as an automated Verifier pattern to ensure no hazardous advice escaping the orchestration pipeline violates safe topical threshold limits.
 
 ---
 
